@@ -1,0 +1,12 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+server:
+  port: 9000
+
+logging:
+  level:
+    org.springframework.web: INFO
